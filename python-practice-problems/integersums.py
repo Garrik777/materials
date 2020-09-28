@@ -9,9 +9,7 @@ import unittest
 
 
 def add_it_up(n):
-    # TODO: Your code goes here!
-    return n
-
+    return sum(range(n + 1))
 
 class IntegerSumTestCase(unittest.TestCase):
     def test_to_ten(self):
